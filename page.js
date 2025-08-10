@@ -5,11 +5,11 @@ export default function Home() {
       <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-[#0f3a2fa6]">
   <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
     {/* left: logo + name */}
-    <div className="flex items-center gap-3">
+    <className="flex justify-center items-center mt-8">
       <img
         src="/logo.png"
         alt="Building Zone Logo"
-        className="w-12 h-12 object-contain rounded"
+        className="w-64 h-auto object-contain"
       />
       <div>
         <p className="font-semibold leading-none">სამშენებლო ზონა</p>

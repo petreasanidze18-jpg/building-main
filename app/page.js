@@ -9,7 +9,7 @@ export default function Home() {
             <img src="/logo.png" alt="Building Zone Logo" className="w-12 h-12 object-contain rounded" />
             <div>
               <p className="font-semibold leading-none">სამშენებლო ზონა</p>
-              <p className="text-xs text-[#b8e0d0]">ყველაფერი მშენებლობისთვის</p>
+              <p className="text-xs text-[#b8e0d0]">ყველაფერი მშენებლობისთვის ერთ სივრცეში!</p>
             </div>
           </div>
 

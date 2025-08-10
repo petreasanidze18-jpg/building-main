@@ -46,10 +46,7 @@ export default function Home() {
           <a href="https://www.facebook.com/BuildingZoneGeorgia" target="_blank" className="px-5 py-3 rounded-xl bg-white/10 border border-white/10">მოგვწერე Facebook-ზე</a>
         </div>
       </section>
-    </div>
-  );
-}
-
+  
       {/* CATEGORIES */}
       <section id="categories" className="max-w-7xl mx-auto px-4 py-14">
         <h2 className="text-2xl md:text-3xl font-bold">პროდუქტის კატეგორიები</h2>
@@ -94,7 +91,4 @@ export default function Home() {
           <p>© {new Date().getFullYear()} სამშენებლო ზონა • ყველა უფლება დაცულია</p>
           <p>ლოკაცია: თბილისი, ხოშარაულის ქ. 29 • @BuildingZoneGeorgia</p> • 📞 592 773 772 
         </div>
-      </footer>
-    </div>
-  );
-}
+      </section>

@@ -3,26 +3,39 @@ export default function Home() {
     <div className="min-h-screen bg-[#0f3a2f] text-white">
       {/* NAV */}
       <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-[#0f3a2fa6]">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-[#1a523f] grid place-items-center shadow">
-              <span className="font-black">BZ</span>
-            </div>
-            <div>
-              <p className="font-semibold leading-none">სამშენებლო ზონა</p>
-              <p className="text-xs text-[#b8e0d0]">სამშენებლო ზონა</p>
-            </div>
-          </div>
-          <nav className="hidden md:flex items-center gap-6 text-sm text-[#cfe9df]">
-            <a href="#categories" className="hover:text-white">პროდუქტები</a>
-            <a href="#services" className="hover:text-white">სერვისები</a>
-            <a href="#about" className="hover:text-white">ჩვენs შესახებ</a>
-            <a href="#contact" className="hover:text-white">კონტაქტი</a>
-          </nav>
-          <a href="https://www.facebook.com/BuildingZoneGeorgia" target="_blank" className="px-4 py-2 rounded-xl bg-[#e2b714] text-[#0f3a2f] font-semibold shadow hover:scale-[1.02] transition">მოგვწერე</a>
-        </div>
-      </header>
+  <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    {/* left: logo + name */}
+    <div className="flex items-center gap-3">
+      <img
+        src="/logo.png"
+        alt="Building Zone Logo"
+        className="w-12 h-12 object-contain rounded"
+      />
+      <div>
+        <p className="font-semibold leading-none">სამშენებლო ზონა</p>
+        <p className="text-xs text-[#b8e0d0]">ყველაფერი მშენებლობისთვის</p>
+      </div>
+    </div>
 
+    {/* center: nav (optional, keep if you use) */}
+    <nav className="hidden md:flex items-center gap-6 text-sm text-[#cfe9df]">
+      <a href="#categories" className="hover:text-white">პროდუქტები</a>
+      <a href="#services" className="hover:text-white">სერვისები</a>
+      <a href="#about" className="hover:text-white">ჩვენ შესახებ</a>
+      <a href="#contact" className="hover:text-white">კონტაქტი</a>
+    </nav>
+
+    {/* right: CTA */}
+    <a
+      href="https://www.facebook.com/BuildingZoneGeorgia"
+      target="_blank"
+      className="px-4 py-2 rounded-xl bg-[#e2b714] text-[#0f3a2f] font-semibold shadow hover:scale-[1.02] transition"
+    >
+      მოგვწერე
+    </a>
+  </div>
+</header>
+  
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">

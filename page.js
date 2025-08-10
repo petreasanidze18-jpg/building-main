@@ -10,7 +10,7 @@ export default function Home() {
             </div>
             <div>
               <p className="font-semibold leading-none">სამშენებლო ზონა</p>
-              <p className="text-xs text-[#b8e0d0]">Building Zone</p>
+              <p className="text-xs text-[#b8e0d0]">სამშენებლო ზონა</p>
             </div>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-[#cfe9df]">
@@ -144,7 +144,7 @@ export default function Home() {
 
       <footer className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-8 text-sm text-[#9fd3be] flex flex-col md:flex-row items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} Building Zone • ყველა უფლება დაცულია</p>
+          <p>© {new Date().getFullYear()} სამშენებლო ზონა • ყველა უფლება დაცულია</p>
           <p>ლოკაცია: თბილისი, ხოშარაულის ქ. 29 • @BuildingZoneGeorgia</p> • 📞 592 773 772 
         </div>
       </footer>
